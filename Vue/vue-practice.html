@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>vue-practice</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{caid}}</p>
+        <p>{{age}}</p>
+    </div>
+    <script>
+        const vm = new Vue({
+            el:'#app',
+            data(){
+                return{
+                caid:'diancai',
+                age:'zhuerchon'
+            }
+        }
+        })
+    </script>
+</body>
+</html>
